@@ -1,0 +1,47 @@
+.background-primary {
+    background-color: #F4978E;
+}
+
+.background-primary-overlay:hover {
+    background-color: #f4978e6c;
+}
+
+.background-dark-overlay {
+    background-color: #0e080862;
+}
+
+.background-dark-overlay:hover {
+    background-color: #0e08089c;
+}
+
+.txt-primary {
+    color: #F4978E;
+    font-size: 25px;
+}
+
+.background-secondary {
+    background-color: #FBC4AB;
+}
+
+.txt-secondary {
+    color: #FBC4AB;
+}
+
+.background-secondary-light {
+    background-color:#FFDAB9;
+}
+
+.txt-secondary-light {
+    color:#FFDAB9;
+}
+
+.btn-outline-secondary {
+    border-color: #F4978E;
+    color: #F4978E;
+}
+
+.btn-outline-secondary:hover {
+    border-color: #FBC4AB;
+    color: white;
+    background-color: #FBC4AB;
+}

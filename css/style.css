@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://mmwebfonts.comquas.com/fonts/?font=pyidaungsu');
+
+body {
+    font-family: 'Lora', 'Pyidaungsu', sans-serif;
+    color: rgb(128, 120, 120);
+}
+.img-fluid {
+    height: 700px;
+    width: 100%;
+    border-radius: 5px;
+}
+.view-story {
+    height: inherit;
+}
+.view-story-txt {
+    position: relative;
+    top: 40%;
+}
+.txt-primary {
+    font-size: 25px;
+}
+.txt-secondary-light {
+    font-size: 35px;
+}
+.btn-outline-secondary {
+    font-size: 18px;
+}
+.text-left {
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-size: 35px;
+}
+.feature-txt {
+    position: relative;
+    top: 40%;
+}
+
+.feature-txt h2 {
+    font-size: 20px;
+}
+
+.feature-txt p {
+    font-size: 12px;
+}
+
+.fa-heart:hover {
+    color: rgb(128, 120, 120);
+}
+.storyheader {
+    text-align: center;
+    max-width: 40%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
