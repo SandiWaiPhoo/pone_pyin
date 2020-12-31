@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://mmwebfonts.comquas.com/fonts/?font=pyidaungsu');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 
 body {
-    font-family: 'Lora', 'Pyidaungsu', sans-serif;
-    color: rgb(128, 120, 120);
+    font-family: 'Raleway', 'Pyidaungsu', sans-serif;
+    color: F1FAEE;
 }
+
+section {
+    margin-top: 100px;
+}
+
 .img-fluid {
     height: 700px;
     width: 100%;
@@ -17,7 +23,7 @@ body {
     position: relative;
     top: 40%;
 }
-.txt-primary {
+.section-title {
     font-size: 25px;
 }
 .txt-secondary-light {
@@ -53,4 +59,52 @@ body {
     padding: 10px;
     border: 2px solid black;
     border-radius: 20px;
+}
+.header {
+    color: black;
+    
+}
+.price {
+    padding-top: 30px;
+}
+#envelope{
+    font-size: 80px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    
+}
+.send {
+    border-radius: 50px;
+}
+.section-title{
+    font-weight: bold;
+}
+.getheader{
+    font-weight: bold;
+    color: black;
+}
+div .b{
+    transform: rotate(-20deg);
+}
+.form-control{
+    border-radius: 20px;
+}
+.bg-white h1{
+    font-size: 18px;
+}
+
+.btn-subscribe {
+    color: white;
+}
+
+.btn-subscribe:hover {
+    background: rgba(255, 255, 255, 0.356);
+}
+
+/* Contact us */
+.contact-us-header {
+    display: inline-block; padding-left: 10px; border-left: 3px solid #E63946; letter-spacing: 0.2rem;
 }

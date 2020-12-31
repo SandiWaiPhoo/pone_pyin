@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/custom_css.css">
 </head>
 
-<body>
+<body style="background-color: #e3e3e3;">
 
     <!-- Start your project here-->
 
@@ -35,14 +35,14 @@
                         <div class="collapse navbar-collapse" id="mainNav">
                             <ul class="navbar-nav" id="left-menu">
                                 <li class="nav-item">
-                                    <a class="nav-link active text-white pl-3" aria-current="page"
+                                    <a class="nav-link text-white pl-3" aria-current="page"
                                         href="/index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-white pl-4" href="/stories.html">Stories</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white pl-4" href="/pricing.html">Pricing</a>
+                                    <a class="nav-link active pl-4" href="/pricing.html">Pricing</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-white pl-4" href="/contact-us.html">Contact Dev</a>
@@ -54,20 +54,20 @@
                                         type="button" data-mdb-ripple-color="dark">Subscribe</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link waves-effect waves-light pl-4">
+                                    <a href="http://www.instagram.com/" class="nav-link waves-effect waves-light pl-4">
                                         <i class="fab fa-instagram text-white"></i>
                                     </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link waves-effect waves-light pl-4">
+                                  </li>
+                                  <li class="nav-item">
+                                    <a href="http://www.twitter.com/" class="nav-link waves-effect waves-light pl-4">
                                         <i class="fab fa-twitter text-white"></i>
                                     </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link waves-effect waves-light pl-4">
+                                  </li>
+                                  <li class="nav-item">
+                                    <a href="http://www.facebook.com/" class="nav-link waves-effect waves-light pl-4">
                                         <i class="fab fa-facebook text-white"></i>
                                     </a>
-                                </li>
+                                  </li>
                                 <li class="nav-item">
                                     <a class="nav-link waves-effect waves-light pl-5">
                                         <i class="fas fa-user-alt text-white"></i>
@@ -82,26 +82,121 @@
             </div>
         </div>
     </header>
+    <div class="container">
+        <div class="row" id="pricing-header">
+          <div class="col-12 py-4">
+              <h1 class="txt-primary section-title text-center">Find the best plan for you</h1>
+          </div>
+        </div>
+        <div class="radiobtn d-flex justify-content-center">
+            <div class="form-check form-check-inline mr-5">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio1"
+                  value="option1"
+                />
+                <label class="form-check-label" for="inlineRadio1">Billed monthly</label>
+              </div>
+              
+              <div class="form-check form-check-inline ml-4">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio2"
+                  value="option2"
+                />
+                <label class="form-check-label" for="inlineRadio2">Billed yearly</label>
+              </div>
+              
+        </div> 
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 warp d-flex justify-content-between py-4">
+                <div class="col-sm-4 col-md-4 standard"> 
+                    <div class="card text-center" style="width: 18rem">
+                      <div class="card-body">
+                        <h5 class="card-title">Starter</h5>
+                        <p class="card-text">
+                          free
+                        </p>
+                        
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Short Stories</li>
+                            <li class="list-group-item">Local Stories</li>
+                            <li class="list-group-item" style="text-decoration: line-through">International Stories</li>
+                            <li class="list-group-item" style="text-decoration: line-through">Unlimited</li>
+                        </ul>
+                        
+                        <a href="#" class="btn btn-outline-primary">Choose Plan</a>
+                      </div>
+                    </div>
+                </div>
 
+                <div class="col-sm-4 col-md-4 advanced">
+                    <div class="card text-center" style="width: 18rem">
+                      <div class="card-body">
+                        <h5 class="card-title">Affortable</h5>
+                        <p class="card-text">
+                          500kyats/mth
+                        </p>
+                        
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Short Stories</li>
+                            <li class="list-group-item">Local Stories</li>
+                            <li class="list-group-item">International Stories</li>
+                            <li class="list-group-item" style="text-decoration: line-through">Unlimited</li>
+                        </ul>
+                        
+                        <a href="#" class="btn btn-outline-primary">Choose Plan</a>
+                      </div>
+                    </div>
+                </div>
 
-    <!-- /Start your project here-->
+                <div class="col-sm-4 col-md-4 enterprise">
+                    <div class="card text-center" style="width: 18rem">
+                    <div class="card-body">
+                        <h5 class="card-title">Safe Bet</h5>
+                        <p class="card-text">
+                            4998kyats/year
+                        </p>
+                        
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Short Stories</li>
+                            <li class="list-group-item">Local Stories</li>
+                            <li class="list-group-item">International Stories</li>
+                            <li class="list-group-item">Unlimited</li>
+                        </ul>
+                        
+                        <a href="#" class="btn btn-outline-primary">Choose Plan</a>
+                    </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    
     <footer class="container-fluid background-primary mt-4">
         <div class="d-flex justify-content-between">
-            <div class="py-3">
-                <small>copyright&copy;@2020 by <a href="https://sandiwaiphoo.kaunghtut.com" class="text-white"
-                        style="text-decoration: none;">Sandiwaiphoo</a></small>
+          <div class="py-3">
+            <small class="text-white" style="font-size: 14px;">copyright&copy;@2020 by <a
+                href="https://sandiwaiphoo.kaunghtut.com" class="txt-secondary"
+                style="text-decoration: none;">Sandiwaiphoo</a></small>
+          </div>
+    
+          <div>
+    
+          </div>
+          <a href="#top">
+            <div class="py-3 background-secondary text-center text-white" style="width: 70px; height: 100%;">
+              <i class="fas fa-arrow-up"></i>
             </div>
-
-            <div>
-
-            </div>
-            <a href="#top">
-                <div class="py-3 background-secondary text-center text-white" style="width: 70px; height: 100%;">
-                    <i class="fas fa-arrow-up"></i>
-                </div>
-            </a>
+          </a>
         </div>
-    </footer>
+      </footer>
 
 
     <!-- SCRIPTS -->

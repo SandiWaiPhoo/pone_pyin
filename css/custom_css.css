@@ -1,47 +1,71 @@
 .background-primary {
-    background-color: #F4978E;
+    background-color: #1D3557;
 }
 
 .background-primary-overlay:hover {
-    background-color: #f4978e6c;
+    background-color: #1d355781;
 }
 
 .background-dark-overlay {
-    background-color: #0e080862;
+    background-color: #1d355786;
 }
 
 .background-dark-overlay:hover {
-    background-color: #0e08089c;
+    background-color: #1D3557;
 }
 
 .txt-primary {
-    color: #F4978E;
-    font-size: 25px;
+    color: #1D3557;
 }
 
 .background-secondary {
-    background-color: #FBC4AB;
+    background-color: #E63946;
 }
 
 .txt-secondary {
-    color: #FBC4AB;
+    color: #E63946;
+}
+
+.txt-secondary:hover {
+    color: #A8DADC;
 }
 
 .background-secondary-light {
-    background-color:#FFDAB9;
+    background-color:#A8DADC;
 }
 
 .txt-secondary-light {
-    color:#FFDAB9;
+    color:#457B9D;
+}
+
+.btn-outline-primary {
+    border-color: #1D3557;
+    color: #1D3557;
+}
+
+.btn-outline-primary:hover {
+    border-color: #457B9D;
 }
 
 .btn-outline-secondary {
-    border-color: #F4978E;
-    color: #F4978E;
+    border-color: #E63946;
+    color: #E63946;
 }
 
 .btn-outline-secondary:hover {
-    border-color: #FBC4AB;
+    border-color: #E63946;
     color: white;
-    background-color: #FBC4AB;
+    background-color: #E63946;
+}
+.kyt{
+    color: #E63946;
+    font-weight: bold;
+}
+.view{
+    background-color: #1D3557;
+    color: white;
+}
+
+.nav-item .active {
+    color: #E63946;
 }
